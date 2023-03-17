@@ -1,0 +1,52 @@
+html{
+    font-size:62.5%;
+}
+body{
+    padding:20px;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    max-width: 1140px;
+    margin:0 auto 0;
+}
+img{
+    width:100%;
+}
+h1,h2,h3{
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing:-2px;
+}
+h1{
+    font-size:5.653rem;
+    margin-top:3rem;
+}
+h2{
+    font-size:4.188rem;
+    margin: 3rem 0 1rem 0;
+}
+h3{
+    font-size:3.157rem;
+    margin:2rem 0 1rem;
+}
+p{
+    margin-top:0;
+    font-family:'PT Serif',serif;
+    font-size:2.5rem;
+    line-height:1.5;
+    color:#333;
+    font-style: italic;
+}
+ol,ul{
+    font-family:"Roboto";
+    color: #333;
+    font-size: 1.7rem;
+}
+ol li {
+    margin-bottom:2rem;
+    line-height: 1.5;
+}
+ul{
+    line-height:1.5;
+}
